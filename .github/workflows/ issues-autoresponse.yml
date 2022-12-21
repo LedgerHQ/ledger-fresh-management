@@ -1,0 +1,30 @@
+name: Issue Autoresponse
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  auto-response:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: derekprior/add-autoresponse@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          respondableId: ${{ github.event.issue.node_id }}
+          author: ${{ github.event.issue.user.login }}
+          response: |
+            ### Task monitoring 📝
+            ---
+
+            *This is an __automatic post__ that is intended to facilitate the follow-up of the project. 
+            This post is meant to be edited throughout the life of the project.*
+            
+            <!---### Meeting reports
+            ---
+
+            - [Meeting n](link to the post) -- add_context_here
+            - [Meeting n](link to the post) -- add_context_here --->
+
