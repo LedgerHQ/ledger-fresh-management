@@ -10,7 +10,7 @@ assignees: ''
 <!--
 Welcome! 
 This template is designed for outlining tasks that are open for contributions. It is divided into three sections: the header, body, and external contribution section.
-- The header section serves as the ID card for the task, displaying the task name, the module it belongs to, and its difficulty level.
+- The header section serves as the ID card for the task, displaying the task name, the module it belongs to, its difficulty level, and its dependency.
 - The body section includes a brief overview, a detailed description, and supplementary resources.
 - The final section includes all information regarding external grants. In this section, readers can find the link to the bounty and the prize. This section is not required to create the task, you can skip it for now then edit the original message in the created issue to complete it later.
 
@@ -30,12 +30,12 @@ Please keep in mind that this is the initial post in this thread on the issue at
 ## Header
 
 <!-- be as explicit and concise as possible -->
-**Name of the task**:
+**Name of the task**: 
 
 <!-- 
     This is the module that is affected by this task.
     For example: Push notifications, Starkcheck, Plugin store... -->
-**Name of the module**:
+**Name of the module**: 
 
 <!-- 
     Use the Fibonacci sequence to express the difficulty
@@ -43,6 +43,11 @@ Please keep in mind that this is the initial post in this thread on the issue at
     Number 1 describes a task that is very easy to implement
     Number 13 describes a task that is very difficult to implement or a task that requires an innovative approach. -->
 **Difficulty**: 
+
+<!-- 
+    Fill in this field if this task depends on another task resolution.
+-->
+**Waiting for**: 
 
 ## Body 
 

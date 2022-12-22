@@ -10,7 +10,7 @@ assignees: ''
 <!--
 Welcome! 
 This template is designed for outlining tasks that are not open for contributions. It is divided into two sections: the header and the body.
-- The header section serves as the ID card for the task, displaying the task name, the module it belongs to, and its difficulty level.
+- The header section serves as the ID card for the task, displaying the task name, the module it belongs to, its difficulty level, and its dependency.
 - The body section includes a brief overview, a detailed description, and supplementary resources.
 
 As the issue author, it is your responsibility to complete the header and body sections of this template. Once you have written your content, please don't forget to include some additional metadata at the end: 
@@ -29,12 +29,12 @@ At later point, if you want to convert this issue into a bounty, you can do so b
 ## Header
 
 <!-- be as explicit and concise as possible -->
-**Name of the task**:
+**Name of the task**: 
 
 <!-- 
     This is the module that is affected by this task.
     For example: Push notifications, Starkcheck, Plugin store... -->
-**Name of the module**:
+**Name of the module**: 
 
 <!-- 
     Use the Fibonacci sequence to express the difficulty
@@ -42,6 +42,11 @@ At later point, if you want to convert this issue into a bounty, you can do so b
     Number 1 describes a task that is very easy to implement
     Number 13 describes a task that is very difficult to implement or a task that requires an innovative approach. -->
 **Difficulty**: 
+
+<!-- 
+    Fill in this field if this task depends on another task resolution.
+-->
+**Waiting for**: 
 
 ## Body 
 
