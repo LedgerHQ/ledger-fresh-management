@@ -66,7 +66,7 @@ We’ll see next how the Ledger Fresh wallet is this ultimate smart wallet and w
 
 ### Account Abstraction
 
-Account Abstraction is a long term goal of the Ethereum ecosystem to use the execution capabilities of a blockchain to implement the account verification logic instead of just implementing the logic of applications. Account Abstraction replaces the traditional concept of accounts associated with keys by account smart contracts,makingit possible to use custom verification logic (for example different signature schemes) and to perform additional checks such as using an allowlist of contracts and functions. 
+Account Abstraction is a long term goal of the Ethereum ecosystem to use the execution capabilities of a blockchain to implement the account verification logic instead of just implementing the logic of applications. Account Abstraction replaces the traditional concept of accounts associated with keys by account smart contracts,making it possible to use custom verification logic (for example different signature schemes) and to perform additional checks such as using an allowlist of contracts and functions. 
 
 It has been partially implemented on Ethereum, with [Argent](https://github.com/argentlabs) pioneering its use since 2018, and there are currently several competing specifications ([EIP-4337](https://eips.ethereum.org/EIPS/eip-4337), [EIP-3074](https://eips.ethereum.org/EIPS/eip-3074) and [EIP-5806](https://eips.ethereum.org/EIPS/eip-5806)) being reviewed to move to a full implementation, enabling for instance to pay for network fees using different assets (e.g any [ERC-20](https://eips.ethereum.org/EIPS/eip-20) token), or define how transactions are ordered.
 
@@ -100,7 +100,7 @@ More specifically, Account plugins allow updating mechanisms to validate transac
 
 Ledger Fresh builds a security oriented web wallet interface interacting with an account smart contract on Starknet supporting different security validation mechanisms (such as creating an allowlist or relying on an external source of truth) depending on the device interacting with the account: this can be for instance either a WebAuthn device, or a Ledger device. Moreover, this wallet can be enhanced/extended by external plugins.
 
-Ledger Fresh is under heavy development and currently being developed by Ledger and the community (with the support of [Only Dust](https://www.onlydust.xyz/)), targeting a release for Starknet mainnet official launch, scheduled around end of Q1 2023. The security mechanisms and user flow described here are still being discussed and could change
+Ledger Fresh is under heavy development and currently being developed by Ledger and the community (with the support of [Only Dust](https://www.onlydust.xyz/)), targeting a release for Starknet mainnet official launch, scheduled around end of Q1 2023. The security mechanisms and user flow described here are still being discussed and could change.
 
 ![system architecture](documents/system-architecture.png)
 
