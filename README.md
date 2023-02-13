@@ -1,6 +1,6 @@
 # Ledger Fresh Product Management
 
-This repository is used to manage the Ledger Fresh product backlog and roadmap. Have a question about Ledger Fresh? [Talk to us](https://discord.com/channels/885256081289379850/1053266126953529374)
+This repository is used to manage the Ledger Fresh product backlog and roadmap. Have a question about Ledger Fresh? [Talk to us](https://discord.gg/fJ4ETX33BS)
 
 Here is a table listing all Ledger Fresh modules and their important links.
 
