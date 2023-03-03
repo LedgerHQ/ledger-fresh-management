@@ -21,6 +21,7 @@ Here are some other links related to Ledger Fresh
 - [Starknet Deployer - Proof of concept](https://github.com/LedgerHQ/Starknet-POC-deployer)
 - [Starknet Client - Javascript](https://github.com/LedgerHQ/starknet-js-client/)
 - [Nano app web installer lib](https://github.com/LedgerHQ/nano-app-web-installer-lib)
+- [Custom implementation of get-starknet](https://github.com/LedgerHQ/get-starknet/tree/feat/freshWebWallet)
 
 ## What is Ledger Fresh
 
