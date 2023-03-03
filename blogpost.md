@@ -48,7 +48,7 @@ Account Abstraction is a long term goal of the Ethereum ecosystem to use the exe
 
 It has been partially implemented on Ethereum, with [Argent](https://github.com/argentlabs) pioneering its use since 2018, and there are currently several competing specifications ([EIP-4337](https://eips.ethereum.org/EIPS/eip-4337), [EIP-3074](https://eips.ethereum.org/EIPS/eip-3074) and [EIP-5806](https://eips.ethereum.org/EIPS/eip-5806)) being reviewed to move to a full implementation, enabling for instance to pay for network fees using different assets (e.g any [ERC-20](https://eips.ethereum.org/EIPS/eip-20) token), or define how transactions are ordered.
 
-Unfortunately even partial implementations of Account Abstraction didn’t get a lot of traction because of the related network costs, particularly when gas price surged during Defi Summer in 2020 and then during the NFT era in 2021.This is going to change with a growing range of efficient L2 solutions aiming at bringing down gas costs.
+Unfortunately even partial implementations of Account Abstraction didn’t get a lot of traction because of the related network costs, particularly when gas price surged during Defi Summer in 2020 and then during the NFT era in 2021. This is going to change with a growing range of efficient L2 solutions aiming at bringing down gas costs.
 
 ### FIDO / WebAuthn
 
@@ -84,18 +84,18 @@ Ledger Fresh is under heavy development and currently being developed by Ledger 
 
 ### Without a Ledger device
 
-When starting her journey without a Ledger device, the user will be able to register different WebAuthn devices(your mobille phone, your laptop, …) to Ledger Fresh.
+When starting her journey without a Ledger device, the user will be able to register different WebAuthn devices (your mobille phone, your laptop, …) to Ledger Fresh.
 
 Ledger Fresh will provide additional guidance when an operation is risky or the user account value is significant enough to get protected against malware with a Ledger device.
 
-Switching between security profiles or modifying the current security profile will be performed with a customizable delay and notifications to give users the opportunity to cancel the operation in case it was initiated by malware
+Switching between security profiles or modifying the current security profile will be performed with a customizable delay and notifications to give users the opportunity to cancel the operation in case it was initiated by malware.
 
 ### Adding a Ledger device
 
-Adding a Ledger device provides full protection against malware - thus security operations can be confirmed instantly on device (What You See Is What You Sign). The user will also be able to bypass security restrictions set to the account (for example a spent amount per day) if and only if using a Ledger device.
+Adding a Ledger device provides full protection against malware - thus security operations can be confirmed instantly on device (_What You See Is What You Sign_). The user will also be able to bypass security restrictions set to the account (for example a spent amount per day) if and only if using a Ledger device.
 
 ### Future Ledger Fresh services
 
-In the future, we plan to extend the support of Ledger Fresh - both with connecting additional chains to Starknet, and to support the same concept on different chains if it is economically viable
+In the future, we plan to extend the support of Ledger Fresh - both with connecting additional chains to Starknet, and to support the same concept on different chains if it is economically viable.
 
 Additional services will also be implemented as plugins, such as a multisignature service or a trustless legacy service allowing to send crypto assets to a predefined address if the account has been idle for some time.
